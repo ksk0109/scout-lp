@@ -1,315 +1,677 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Creatorスカウト - AIで最適なインフルエンサーを発見</title>
-  <meta name="description" content="AI分析が無数の才能の中からあなたのブランドの「運命の人」を見つけ出します">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="robots" content="noindex, nofollow"/>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
   <style>
-    body { font-family: 'Nunito', 'Noto Sans JP', sans-serif; }
+    body { font-family: 'Nunito', sans-serif; }
   </style>
+  <title>Creatorスカウト - AIで最適なインフルエンサーを発見</title>
+  <meta name="description" content="AI分析が無数の才能の中からあなたのブランドの「運命の人」を見つけ出します！Creatorスカウトに全てお任せ下さい"/>
+  <meta name="author" content="株式会社ファーストテンプル"/>
+  <meta name="keywords" content="インフルエンサーマーケティング,AI分析,SNSマーケティング,インフルエンサー選定,業務代行,データ分析"/>
+  <meta property="og:title" content="Creatorスカウト - AIで最適なインフルエンサーを発見"/>
+  <meta property="og:description" content="AI分析が無数の才能の中からあなたのブランドの「運命の人」を見つけ出します！Creatorスカウトに全てお任せ下さい"/>
+  <meta property="og:url" content="https://scout.first-temple.co.jp"/>
+  <meta property="og:site_name" content="Creatorスカウト"/>
+  <meta property="og:locale" content="ja_JP"/>
+  <meta property="og:image" content="images/logo.png"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:alt" content="Creatorスカウト - インフルエンサー、クリエイター探しに、もう時間をかけない！"/>
+  <meta property="og:type" content="website"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Creatorスカウト - AIで最適なインフルエンサーを発見"/>
+  <meta name="twitter:description" content="AI分析が無数の才能の中からあなたのブランドの「運命の人」を見つけ出します！Creatorスカウトに全てお任せ下さい"/>
+  <meta name="twitter:image" content="images/logo.png"/>
 </head>
-<body class="bg-gray-900 text-gray-100">
+<body class="antialiased font-nunito">
+<div class="min-h-screen bg-[#F7F9FC]">
 
   <!-- Header -->
-  <header class="fixed top-0 left-0 right-0 z-50 bg-gray-900/95 backdrop-blur border-b border-gray-800">
-    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="#"><img src="images/logo.png" alt="Creatorスカウト" class="h-8"></a>
-      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-300">
-        <a href="#features" class="hover:text-white transition">機能</a>
-        <a href="#analysis" class="hover:text-white transition">データ分析</a>
-        <a href="#results" class="hover:text-white transition">導入効果</a>
-        <a href="#targeting" class="hover:text-white transition">ターゲティング</a>
-        <a href="#proxy" class="hover:text-white transition">業務代行</a>
-        <a href="https://forms.google.com" target="_blank" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">無料相談</a>
-      </nav>
+  <header class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm">
+    <div class="container mx-auto px-6 py-4">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 bg-gradient-to-r from-[#2D6CDF] to-[#FF7E5F] rounded-xl flex items-center justify-center shadow-lg">
+            <i class="ri-user-star-line text-white text-xl"></i>
+          </div>
+          <span class="text-2xl font-bold text-gray-900">Creatorスカウト</span>
+        </div>
+        <nav class="hidden md:flex items-center space-x-8">
+          <a class="text-gray-600 hover:text-[#2D6CDF] transition-all duration-300 font-medium cursor-pointer" href="#features">機能</a>
+          <a class="text-gray-600 hover:text-[#2D6CDF] transition-all duration-300 font-medium cursor-pointer" href="#analysis">データ分析</a>
+          <a class="text-gray-600 hover:text-[#2D6CDF] transition-all duration-300 font-medium cursor-pointer" href="#results">導入効果</a>
+          <a class="text-gray-600 hover:text-[#2D6CDF] transition-all duration-300 font-medium cursor-pointer" href="#targeting">ターゲティング</a>
+          <a class="text-gray-600 hover:text-[#2D6CDF] transition-all duration-300 font-medium cursor-pointer" href="#proxy">業務代行</a>
+          <a href="https://first-temple.co.jp/contact" target="_blank" rel="noopener noreferrer" class="bg-[#2D6CDF] text-white px-8 py-3 rounded-full hover:bg-[#2856C7] transition-all duration-300 whitespace-nowrap cursor-pointer font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">無料相談</a>
+        </nav>
+        <button class="md:hidden w-8 h-8 flex items-center justify-center cursor-pointer">
+          <i class="ri-menu-line text-gray-600 text-xl"></i>
+        </button>
+      </div>
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="pt-28 pb-20 px-6">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-      <div>
-        <p class="text-blue-400 font-bold mb-4">国内最大級 200万以上のアカウント対応</p>
-        <h1 class="text-4xl md:text-5xl font-black leading-tight mb-6">
-          インフルエンサー探し、<br>もう時間かけない
-        </h1>
-        <p class="text-gray-400 text-lg mb-8">
-          AI分析が無数の才能の中からあなたのブランドの「運命の人」を見つけ出します！Creatorスカウトに全てお任せ下さい
-        </p>
-        <div class="flex flex-wrap gap-4">
-          <a href="https://forms.google.com" target="_blank" class="bg-blue-600 text-white px-8 py-4 rounded-full font-bold hover:bg-blue-700 transition">無料相談を申し込む</a>
-          <a href="#" class="border border-gray-600 text-gray-300 px-8 py-4 rounded-full font-bold hover:border-gray-400 transition">サービス資料をダウンロード</a>
-        </div>
-        <div class="flex gap-8 mt-10 text-center">
-          <div>
-            <div class="text-2xl font-black text-blue-400">200万+</div>
-            <div class="text-xs text-gray-500">アカウント対応数</div>
-          </div>
-          <div>
-            <div class="text-2xl font-black text-blue-400">国内最大級</div>
-            <div class="text-xs text-gray-500">データベース規模</div>
-          </div>
-          <div>
-            <div class="text-2xl font-black text-blue-400">AI分析</div>
-            <div class="text-xs text-gray-500">による最適化</div>
-          </div>
-        </div>
-      </div>
-      <div class="rounded-2xl overflow-hidden shadow-2xl">
-        <img src="images/team.png" alt="Creatorスカウトチーム" class="w-full">
-      </div>
+  <!-- Hero Section -->
+  <section class="relative pt-24 pb-20 bg-gradient-to-br from-[#F7F9FC] via-white to-[#2D6CDF]/5 overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <img src="images/team.png" alt="インフルエンサーチーム背景" class="w-full h-full object-cover object-center"/>
+      <div class="absolute inset-0 bg-gradient-to-b from-white/80 via-white/70 to-white/60"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-white/60 via-transparent to-white/40"></div>
     </div>
-  </section>
-
-  <!-- Challenge -->
-  <section class="py-20 bg-gray-800/50 px-6">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl font-black text-center mb-4">インフルエンサーマーケティングの課題</h2>
-      <p class="text-center text-gray-400 mb-12">多くの企業が直面している3つの問題</p>
-      <div class="grid md:grid-cols-3 gap-6">
-        <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700">
-          <div class="text-5xl font-black text-red-400 mb-4">42<span class="text-2xl">%</span></div>
-          <h3 class="text-lg font-bold mb-3">選定の困難さ</h3>
-          <p class="text-gray-400 text-sm">42%の企業が最適なインフルエンサーの選び方がわからないと回答</p>
-        </div>
-        <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700">
-          <div class="text-5xl font-black text-yellow-400 mb-4">61<span class="text-2xl">%</span></div>
-          <h3 class="text-lg font-bold mb-3">効果測定の難しさ</h3>
-          <p class="text-gray-400 text-sm">効果が分かりづらい（38%）、効果測定ができない（23%）</p>
-        </div>
-        <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700">
-          <div class="text-5xl font-black text-orange-400 mb-4">22<span class="text-2xl">%</span></div>
-          <h3 class="text-lg font-bold mb-3">KPIの曖昧さ</h3>
-          <p class="text-gray-400 text-sm">明確な成果指標が設定できずに困っている企業の割合</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Features -->
-  <section class="py-20 px-6" id="features">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl font-black text-center mb-4">AIと豊富なデータで課題を解決</h2>
-      <p class="text-center text-gray-400 mb-12">Creatorスカウトの3つの強み</p>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="text-center">
-          <div class="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto mb-6">
-            <span class="text-2xl">🤖</span>
-          </div>
-          <h3 class="text-xl font-bold mb-3">高度なAIデータ分析</h3>
-          <p class="text-gray-400">通常は見ることのできない50以上の独自の裏側データをAIが分析。フォロワーの質を可視化し、真の価値を見極めます。</p>
-        </div>
-        <div class="text-center">
-          <div class="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto mb-6">
-            <span class="text-2xl">🔍</span>
-          </div>
-          <h3 class="text-xl font-bold mb-3">豊富な検索フィルター</h3>
-          <p class="text-gray-400">30を超えるフィルターで、200万以上の膨大なアカウントから質の高いインフルエンサーを効率的に抽出できます。</p>
-        </div>
-        <div class="text-center">
-          <div class="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto mb-6">
-            <span class="text-2xl">🏆</span>
-          </div>
-          <h3 class="text-xl font-bold mb-3">国内最大級のデータベース</h3>
-          <p class="text-gray-400">日本で活動するインフルエンサーの対応アカウント数はNo.1。幅広い選択肢から最適なパートナーを見つけられます。</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Analysis -->
-  <section class="py-20 bg-gray-800/50 px-6" id="analysis">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl font-black text-center mb-4">フォロワーの「質」を可視化</h2>
-      <p class="text-center text-gray-400 mb-12">フォロワー数や見た目だけでは分からない真の価値を数値化</p>
-      <div class="grid md:grid-cols-2 gap-12 items-center">
-        <div>
-          <img src="images/dashboard.png" alt="ダッシュボード" class="rounded-2xl shadow-xl w-full">
-        </div>
-        <div class="space-y-6">
-          <div class="bg-gray-800 rounded-xl p-6 border border-gray-700">
-            <h3 class="font-bold mb-2">📊 フォロワーデータ</h3>
-            <p class="text-gray-400 text-sm">アクティブ率・詳細属性（国、性別、年齢）・興味関心など多角的に分析</p>
-          </div>
-          <div class="bg-gray-800 rounded-xl p-6 border border-gray-700">
-            <h3 class="font-bold mb-2">📈 いいね推移分析</h3>
-            <p class="text-gray-400 text-sm">インフルエンサーの勢いを時系列で把握し、投資タイミングを最適化</p>
-          </div>
-          <div class="bg-gray-800 rounded-xl p-6 border border-gray-700">
-            <h3 class="font-bold mb-2">#️⃣ ハッシュタグ分析</h3>
-            <p class="text-gray-400 text-sm">エンゲージメントの高いハッシュタグを抽出し、PR商品との相性を確認</p>
-          </div>
-          <div class="bg-gray-800 rounded-xl p-6 border border-gray-700">
-            <h3 class="font-bold mb-2">💡 エンゲージメント分析</h3>
-            <p class="text-gray-400 text-sm">真の影響力を数値化し、ROIを予測。フォロワー外からのいいね割合も詳細分析</p>
+    <div class="absolute top-20 left-10 w-16 h-16 bg-[#FFD85F]/20 rounded-full blur-sm animate-pulse z-10"></div>
+    <div class="absolute top-40 right-20 w-24 h-24 bg-[#FF7E5F]/20 rounded-full blur-sm animate-pulse z-10"></div>
+    <div class="absolute bottom-20 left-1/4 w-12 h-12 bg-[#2D6CDF]/20 rounded-full blur-sm animate-pulse z-10"></div>
+    <div class="relative container mx-auto px-6 py-16 z-20">
+      <div class="max-w-5xl mx-auto text-center">
+        <div class="relative inline-block mb-8">
+          <div class="bg-white/95 backdrop-blur-sm p-4 rounded-2xl shadow-lg border-l-4 border-[#FF7E5F] relative">
+            <p class="text-sm text-gray-600 font-medium">#インフルエンサーマーケティング #AI分析 #業務代行</p>
+            <div class="absolute -bottom-2 left-8 w-4 h-4 bg-white/95 border-b border-r border-gray-200 transform rotate-45"></div>
           </div>
         </div>
-      </div>
-      <div class="mt-12">
-        <img src="images/analysis.png" alt="分析画面" class="rounded-2xl shadow-xl w-full max-w-3xl mx-auto">
-      </div>
-    </div>
-  </section>
-
-  <!-- Results -->
-  <section class="py-20 px-6" id="results">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl font-black text-center mb-12">圧倒的な成果を実現</h2>
-      <div class="grid md:grid-cols-4 gap-6 mb-16">
-        <div class="bg-gradient-to-br from-blue-900 to-blue-800 rounded-2xl p-8 text-center">
-          <div class="text-5xl font-black text-blue-300 mb-2">1.6<span class="text-2xl">倍</span></div>
-          <p class="text-blue-200 text-sm">ターゲットリーチ数向上</p>
+        <h1 class="text-5xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight drop-shadow-sm">インフルエンサー探し、<br/><span class="bg-gradient-to-r from-[#2D6CDF] to-[#FF7E5F] bg-clip-text text-transparent">もう時間かけない</span></h1>
+        <p class="text-xl md:text-2xl text-gray-700 mb-10 leading-relaxed font-medium drop-shadow-sm">AI分析が無数の才能の中からあなたのブランドの「運命の人」を見つけ出します！<br/>Creatorスカウトに全てお任せ下さい</p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
+          <a href="https://first-temple.co.jp/contact" target="_blank" rel="noopener noreferrer" class="bg-[#2D6CDF] text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-[#2856C7] transition-all duration-300 whitespace-nowrap cursor-pointer shadow-lg hover:shadow-xl transform hover:-translate-y-1">無料相談を申し込む</a>
+          <a href="https://first-temple.co.jp/contact" target="_blank" rel="noopener noreferrer" aria-label="資料ダウンロード（外部フォームが開きます）" class="bg-white/95 backdrop-blur-sm border-2 border-[#FF7E5F] text-[#FF7E5F] px-10 py-4 rounded-full text-lg font-bold hover:bg-[#FF7E5F] hover:text-white transition-all duration-300 whitespace-nowrap cursor-pointer shadow-lg hover:shadow-xl transform hover:-translate-y-1">サービス資料をダウンロード</a>
         </div>
-        <div class="bg-gradient-to-br from-green-900 to-green-800 rounded-2xl p-8 text-center">
-          <div class="text-5xl font-black text-green-300 mb-2">50<span class="text-2xl">%</span></div>
-          <p class="text-green-200 text-sm">コスト削減率</p>
-        </div>
-        <div class="bg-gradient-to-br from-purple-900 to-purple-800 rounded-2xl p-8 text-center">
-          <div class="text-5xl font-black text-purple-300 mb-2">100<span class="text-2xl">倍</span></div>
-          <p class="text-purple-200 text-sm">売上最大成長率</p>
-        </div>
-        <div class="bg-gradient-to-br from-orange-900 to-orange-800 rounded-2xl p-8 text-center">
-          <div class="text-4xl font-black text-orange-300 mb-2">2,880<span class="text-xl">万円</span></div>
-          <p class="text-orange-200 text-sm">年間最大コスト削減</p>
-        </div>
-      </div>
-      <div class="grid md:grid-cols-2 gap-12 items-center">
-        <div>
-          <h3 class="text-2xl font-black mb-6">データで証明された効果</h3>
-          <div class="space-y-4">
-            <div class="bg-gray-800 rounded-xl p-6 border-l-4 border-blue-500">
-              <div class="flex justify-between items-start mb-3">
-                <h4 class="font-bold">インフルエンサーA 🏆</h4>
-                <span class="text-sm text-blue-400">勝者</span>
-              </div>
-              <div class="grid grid-cols-2 gap-2 text-sm text-gray-400">
-                <div>フォロワー数: <span class="text-white">5万人</span></div>
-                <div>エンゲージメント率: <span class="text-green-400">8.5%</span></div>
-                <div>PR対象フォロワー: <span class="text-white">12,500人</span></div>
-                <div>コスト効率: <span class="text-green-400">高</span></div>
-              </div>
+        <div class="bg-white/95 backdrop-blur-sm rounded-3xl p-6 shadow-xl border border-gray-100 max-w-2xl mx-auto">
+          <div class="flex items-center justify-center space-x-8 text-sm">
+            <div class="flex items-center space-x-2">
+              <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+              <span class="font-semibold text-gray-700">200万以上のアカウント</span>
             </div>
-            <div class="bg-gray-800 rounded-xl p-6 border-l-4 border-gray-600">
-              <h4 class="font-bold mb-3 text-gray-400">インフルエンサーB</h4>
-              <div class="grid grid-cols-2 gap-2 text-sm text-gray-500">
-                <div>フォロワー数: <span class="text-gray-400">10万人</span></div>
-                <div>エンゲージメント率: <span class="text-red-400">3.2%</span></div>
-                <div>PR対象フォロワー: <span class="text-gray-400">7,800人</span></div>
-                <div>コスト効率: <span class="text-red-400">低</span></div>
+            <div class="flex items-center space-x-2">
+              <div class="w-3 h-3 bg-[#2D6CDF] rounded-full animate-pulse"></div>
+              <span class="font-semibold text-gray-700">国内最大級の対応数</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <div class="w-3 h-3 bg-[#FF7E5F] rounded-full animate-pulse"></div>
+              <span class="font-semibold text-gray-700">AI分析による最適化</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企業の課題 Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <div class="inline-block bg-[#FFD85F] text-black px-6 py-2 rounded-full font-bold mb-6 shadow-lg">#企業の課題</div>
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">インフルエンサーマーケティングの課題</h2>
+        <p class="text-xl text-gray-600 font-medium">多くの企業が抱える共通の悩みを解決します</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div class="bg-white p-8 rounded-3xl shadow-lg border-2 border-gray-100 hover:border-[#2D6CDF] transition-all duration-300 hover:shadow-xl">
+          <div class="w-16 h-16 bg-gradient-to-r from-red-100 to-red-50 rounded-2xl flex items-center justify-center mb-6">
+            <i class="ri-question-mark text-red-600 text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">選定の困難さ</h3>
+          <p class="text-gray-600 mb-6 font-medium">42%の企業が最適なインフルエンサーの選び方がわからないと回答</p>
+          <div class="bg-[#FFD85F] text-black px-4 py-2 rounded-full inline-block shadow-md">
+            <span class="text-2xl font-bold">42%</span>
+          </div>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow-lg border-2 border-gray-100 hover:border-[#FF7E5F] transition-all duration-300 hover:shadow-xl">
+          <div class="w-16 h-16 bg-gradient-to-r from-orange-100 to-orange-50 rounded-2xl flex items-center justify-center mb-6">
+            <i class="ri-bar-chart-line text-orange-600 text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">効果測定の難しさ</h3>
+          <p class="text-gray-600 mb-6 font-medium">効果が分かりづらい（38%）、効果測定ができない（23%）</p>
+          <div class="bg-[#FFD85F] text-black px-4 py-2 rounded-full inline-block shadow-md">
+            <span class="text-2xl font-bold">61%</span>
+          </div>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow-lg border-2 border-gray-100 hover:border-[#FFD85F] transition-all duration-300 hover:shadow-xl">
+          <div class="w-16 h-16 bg-gradient-to-r from-yellow-100 to-yellow-50 rounded-2xl flex items-center justify-center mb-6">
+            <i class="ri-target-line text-yellow-600 text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">KPIの曖昧さ</h3>
+          <p class="text-gray-600 mb-6 font-medium">明確な成果指標が設定できずに困っている企業</p>
+          <div class="bg-[#FFD85F] text-black px-4 py-2 rounded-full inline-block shadow-md">
+            <span class="text-2xl font-bold">22%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Creatorスカウトの強み Section -->
+  <section id="features" class="py-20 bg-[#F7F9FC]">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <div class="inline-block bg-[#2D6CDF] text-white px-6 py-2 rounded-full font-bold mb-6 shadow-lg">#Creatorスカウトの強み</div>
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">AIと豊富なデータで課題を解決</h2>
+        <p class="text-xl text-gray-600 font-medium">革新的な技術で、これらの課題を根本から解決</p>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-16 items-center max-w-7xl mx-auto">
+        <div class="space-y-8">
+          <div class="bg-white p-6 rounded-3xl shadow-lg border-2 border-gray-100 hover:border-[#2D6CDF] transition-all duration-300">
+            <div class="flex items-start space-x-4">
+              <div class="w-16 h-16 bg-gradient-to-r from-[#2D6CDF] to-[#2D6CDF]/80 rounded-2xl flex items-center justify-center flex-shrink-0">
+                <i class="ri-brain-line text-white text-2xl"></i>
+              </div>
+              <div>
+                <div class="flex items-center space-x-2 mb-2">
+                  <h3 class="text-xl font-bold text-gray-900">高度なAIデータ分析</h3>
+                  <div class="bg-[#FFD85F] text-black px-2 py-1 rounded-full text-xs font-bold">#AI技術</div>
+                </div>
+                <p class="text-gray-600 font-medium">通常は見ることのできない50以上の独自の裏側データをAIが分析。フォロワーの質を可視化し、真の価値を見極めます。</p>
               </div>
             </div>
           </div>
-          <p class="mt-4 text-gray-400 text-sm">フォロワー数が半分でも、質の高いフォロワーを持つインフルエンサーAが約1.6倍のターゲットリーチを実現</p>
+          <div class="bg-white p-6 rounded-3xl shadow-lg border-2 border-gray-100 hover:border-[#FF7E5F] transition-all duration-300">
+            <div class="flex items-start space-x-4">
+              <div class="w-16 h-16 bg-gradient-to-r from-[#FF7E5F] to-[#FF7E5F]/80 rounded-2xl flex items-center justify-center flex-shrink-0">
+                <i class="ri-search-line text-white text-2xl"></i>
+              </div>
+              <div>
+                <div class="flex items-center space-x-2 mb-2">
+                  <h3 class="text-xl font-bold text-gray-900">豊富な検索フィルター</h3>
+                  <div class="bg-[#2D6CDF] text-white px-2 py-1 rounded-full text-xs font-bold">#絞り込み</div>
+                </div>
+                <p class="text-gray-600 font-medium">30を超えるフィルターで、200万以上の膨大なアカウントから質の高いインフルエンサーを効率的に抽出できます。</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-3xl shadow-lg border-2 border-gray-100 hover:border-[#FFD85F] transition-all duration-300">
+            <div class="flex items-start space-x-4">
+              <div class="w-16 h-16 bg-gradient-to-r from-[#FFD85F] to-[#FFD85F]/80 rounded-2xl flex items-center justify-center flex-shrink-0">
+                <i class="ri-trophy-line text-black text-2xl"></i>
+              </div>
+              <div>
+                <div class="flex items-center space-x-2 mb-2">
+                  <h3 class="text-xl font-bold text-gray-900">国内最大級のデータベース</h3>
+                  <div class="bg-[#FF7E5F] text-white px-2 py-1 rounded-full text-xs font-bold">#No.1</div>
+                </div>
+                <p class="text-gray-600 font-medium">日本で活動するインフルエンサーの対応アカウント数はNo.1。幅広い選択肢から最適なパートナーを見つけられます。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="bg-white p-6 rounded-2xl shadow-xl max-w-2xl mx-auto">
+            <img src="images/dashboard.png" alt="Instagram Insights Analytics Dashboard" class="w-full h-96 object-cover object-top rounded-xl"/>
+          </div>
+          <div class="absolute -top-4 -right-4 bg-[#FFD85F] text-black p-3 rounded-2xl shadow-lg font-bold text-sm">リアルタイム分析
+            <div class="absolute -bottom-2 left-4 w-4 h-4 bg-[#FFD85F] transform rotate-45"></div>
+          </div>
+          <div class="absolute -bottom-6 -left-6 bg-[#2D6CDF] text-white p-3 rounded-2xl shadow-lg font-bold text-sm">SNS最適化
+            <div class="absolute -top-2 right-4 w-4 h-4 bg-[#2D6CDF] transform rotate-45"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 詳細分析機能 Section -->
+  <section id="analysis" class="py-20 bg-gradient-to-br from-white to-[#2D6CDF]/5">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <div class="inline-block bg-[#FF7E5F] text-white px-6 py-2 rounded-full font-bold mb-6 shadow-lg">#詳細分析機能</div>
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">フォロワーの「質」を可視化</h2>
+        <p class="text-xl text-gray-600 font-medium mb-12">フォロワー数や見た目だけでは分からない真の価値を数値化</p>
+        <div class="mb-16">
+          <img src="images/analysis.png" alt="フォロワーデータとインフルエンサーデータの詳細分析画面" class="w-full max-w-6xl mx-auto rounded-2xl shadow-2xl border border-gray-200"/>
+        </div>
+        <div class="mb-16 space-y-10">
+          <div class="my-10">
+            <img src="images/img5.png" alt="どちらが適したインフルエンサー？インフルエンサーAとBの比較分析" class="w-full max-w-4xl mx-auto rounded-2xl shadow-2xl border border-gray-200"/>
+            <p class="text-sm text-gray-500 mt-4 font-medium">フォロワー数だけで選ぶとミスマッチの危険あり</p>
+          </div>
+          <div class="my-10">
+            <img src="images/img6.png" alt="フォロワーの質で選べば商品の認知効果最大化の比較図" class="w-full max-w-4xl mx-auto rounded-2xl shadow-2xl border border-gray-200"/>
+            <p class="text-sm text-gray-500 mt-4 font-medium">フォロワーの質を分析して最適な人選を実現</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
+        <div class="bg-white p-8 rounded-3xl shadow-lg border-2 border-gray-100 hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center space-x-4 mb-6">
+            <div class="w-12 h-12 bg-gradient-to-r from-[#2D6CDF] to-[#2D6CDF]/80 rounded-2xl flex items-center justify-center">
+              <i class="ri-team-line text-white text-xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900">フォロワーデータ</h3>
+            <div class="bg-[#FFD85F] text-black px-3 py-1 rounded-full text-xs font-bold">#品質重視</div>
+          </div>
+          <ul class="space-y-4 text-gray-600">
+            <li class="flex items-start space-x-3">
+              <i class="ri-check-circle-fill text-[#2D6CDF] mt-1 text-lg"></i>
+              <span class="font-medium"><strong>アクティブ率:</strong> 実際に活動しているフォロワーの割合を把握</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="ri-check-circle-fill text-[#2D6CDF] mt-1 text-lg"></i>
+              <span class="font-medium"><strong>詳細属性:</strong> 国、都市、性別、年齢層などのデモグラフィック分析</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="ri-check-circle-fill text-[#2D6CDF] mt-1 text-lg"></i>
+              <span class="font-medium"><strong>興味・関心:</strong> フォロワーの関心事と商品とのマッチ度を測定</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow-lg border-2 border-gray-100 hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center space-x-4 mb-6">
+            <div class="w-12 h-12 bg-gradient-to-r from-[#FF7E5F] to-[#FF7E5F]/80 rounded-2xl flex items-center justify-center">
+              <i class="ri-line-chart-line text-white text-xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900">いいね推移分析</h3>
+            <div class="bg-[#FFD85F] text-black px-3 py-1 rounded-full text-xs font-bold">#トレンド把握</div>
+          </div>
+          <p class="text-gray-600 mb-6 font-medium">インフルエンサーが勢いのある状態か、下降気味なのかを時系列で正確に判断できます。</p>
+          <div class="bg-gradient-to-r from-[#FF7E5F]/10 to-[#2D6CDF]/10 p-4 rounded-2xl border-l-4 border-[#FF7E5F]">
+            <p class="text-sm text-gray-700 font-medium">成長トレンドを可視化し、投資タイミングを最適化</p>
+          </div>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow-lg border-2 border-gray-100 hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center space-x-4 mb-6">
+            <div class="w-12 h-12 bg-gradient-to-r from-[#FFD85F] to-[#FFD85F]/80 rounded-2xl flex items-center justify-center">
+              <i class="ri-hashtag text-black text-xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900">ハッシュタグ分析</h3>
+            <div class="bg-[#2D6CDF] text-white px-3 py-1 rounded-full text-xs font-bold">#相性チェック</div>
+          </div>
+          <p class="text-gray-600 mb-6 font-medium">エンゲージメントの高いハッシュタグを抽出し、PR商品との相性を確認できます。</p>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-[#FFD85F] text-black px-4 py-2 rounded-full text-sm font-bold shadow-md">#beauty</span>
+            <span class="bg-[#2D6CDF] text-white px-4 py-2 rounded-full text-sm font-bold shadow-md">#skincare</span>
+            <span class="bg-[#FF7E5F] text-white px-4 py-2 rounded-full text-sm font-bold shadow-md">#lifestyle</span>
+          </div>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow-lg border-2 border-gray-100 hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center space-x-4 mb-6">
+            <div class="w-12 h-12 bg-gradient-to-r from-[#FF7E5F] to-[#FFD85F] rounded-2xl flex items-center justify-center">
+              <i class="ri-heart-line text-white text-xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900">エンゲージメント分析</h3>
+            <div class="bg-[#FF7E5F] text-white px-3 py-1 rounded-full text-xs font-bold">#影響力測定</div>
+          </div>
+          <p class="text-gray-600 mb-6 font-medium">いいねをしたユーザーのアクティブ率や、フォロワー外からのいいねの割合も詳細分析。</p>
+          <div class="bg-gradient-to-r from-[#FFD85F]/10 to-[#FF7E5F]/10 p-4 rounded-2xl border-l-4 border-[#FFD85F]">
+            <p class="text-sm text-gray-700 font-medium">真の影響力を数値化し、ROIを予測</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 導入実績 Section -->
+  <section id="results" class="py-20 bg-[#F7F9FC]">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <div class="inline-block bg-[#FFD85F] text-black px-6 py-2 rounded-full font-bold mb-6 shadow-lg">#導入実績</div>
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">圧倒的な成果を実現</h2>
+        <p class="text-xl text-gray-600 font-medium">データドリブンなアプローチで、マーケティング効果を最大化</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div class="text-center bg-white p-8 rounded-3xl shadow-lg border-2 border-[#2D6CDF]/20 hover:border-[#2D6CDF] transition-all duration-300 hover:shadow-xl">
+          <div class="bg-[#FFD85F] text-black px-4 py-2 rounded-full inline-block mb-4 shadow-md">
+            <div class="text-4xl font-bold">1.6倍</div>
+          </div>
+          <p class="text-gray-700 font-bold text-lg">ターゲット<br/>リーチ数向上</p>
+        </div>
+        <div class="text-center bg-white p-8 rounded-3xl shadow-lg border-2 border-[#2D6CDF]/20 hover:border-[#2D6CDF] transition-all duration-300 hover:shadow-xl">
+          <div class="bg-[#FFD85F] text-black px-4 py-2 rounded-full inline-block mb-4 shadow-md">
+            <div class="text-4xl font-bold">50%</div>
+          </div>
+          <p class="text-gray-700 font-bold text-lg">コスト<br/>削減率</p>
+        </div>
+        <div class="text-center bg-white p-8 rounded-3xl shadow-lg border-2 border-[#2D6CDF]/20 hover:border-[#2D6CDF] transition-all duration-300 hover:shadow-xl">
+          <div class="bg-[#FFD85F] text-black px-4 py-2 rounded-full inline-block mb-4 shadow-md">
+            <div class="text-4xl font-bold">100倍</div>
+          </div>
+          <p class="text-gray-700 font-bold text-lg">売上<br/>最大成長率</p>
+        </div>
+        <div class="text-center bg-white p-8 rounded-3xl shadow-lg border-2 border-[#2D6CDF]/20 hover:border-[#2D6CDF] transition-all duration-300 hover:shadow-xl">
+          <div class="bg-[#FFD85F] text-black px-4 py-2 rounded-full inline-block mb-4 shadow-md">
+            <div class="text-3xl font-bold">2,880万円</div>
+          </div>
+          <p class="text-gray-700 font-bold text-lg">年間最大<br/>コスト削減</p>
+        </div>
+      </div>
+      <div class="space-y-10 md:space-y-16 mt-12 mb-16">
+        <div>
+          <img src="images/img7.png" alt="年間最大2,880万円の費用削減効果を示すグラフ" class="w-full max-w-7xl mx-auto rounded-2xl shadow-lg border border-gray-200"/>
         </div>
         <div>
-          <img src="images/success.jpg" alt="成功事例" class="rounded-2xl shadow-xl w-full">
+          <img src="images/img8.png" alt="年間で最大100倍の売上げ、500万円越えのインパクトを示すグラフ" class="w-full max-w-7xl mx-auto rounded-2xl shadow-lg border border-gray-200"/>
+        </div>
+      </div>
+      <div class="max-w-7xl mx-auto">
+        <div class="bg-gradient-to-r from-[#2D6CDF] to-[#FF7E5F] p-8 rounded-3xl text-white relative overflow-hidden shadow-2xl">
+          <div class="absolute top-0 right-0 w-1/3 h-full">
+            <img src="images/success.jpg" alt="成功事例イメージ" class="w-full h-full object-cover object-top opacity-20"/>
+          </div>
+          <div class="relative z-10">
+            <div class="text-center mb-8">
+              <div class="inline-block bg-[#FFD85F] text-black px-6 py-2 rounded-full font-bold mb-4">#成功事例</div>
+              <h3 class="text-3xl font-bold">データで証明された効果</h3>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+              <div class="bg-white/15 backdrop-blur-sm p-6 rounded-2xl border-2 border-white/20">
+                <div class="flex items-center space-x-4 mb-4">
+                  <!-- Influencer A placeholder avatar -->
+                  <div class="w-12 h-12 rounded-full border-2 border-[#FFD85F] bg-gradient-to-br from-[#FF7E5F] to-[#FFD85F] flex items-center justify-center flex-shrink-0">
+                    <span class="text-white font-bold text-lg">A</span>
+                  </div>
+                  <div>
+                    <h4 class="text-lg font-bold">インフルエンサーA</h4>
+                    <p class="text-blue-200 text-sm font-medium">5万フォロワー</p>
+                  </div>
+                  <div class="bg-[#FFD85F] text-black px-2 py-1 rounded-full text-xs font-bold">勝者</div>
+                </div>
+                <ul class="space-y-2 text-blue-100 text-sm font-medium">
+                  <li>・ PR商材に興味があるフォロワー数: 12,500人</li>
+                  <li>・ エンゲージメント率: 8.5%</li>
+                  <li>・ コスト効率: 高</li>
+                </ul>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border-2 border-white/10">
+                <div class="flex items-center space-x-4 mb-4">
+                  <!-- Influencer B placeholder avatar -->
+                  <div class="w-12 h-12 rounded-full border-2 border-gray-300 bg-gradient-to-br from-[#2D6CDF] to-[#2D6CDF]/60 flex items-center justify-center flex-shrink-0">
+                    <span class="text-white font-bold text-lg">B</span>
+                  </div>
+                  <div>
+                    <h4 class="text-lg font-bold">インフルエンサーB</h4>
+                    <p class="text-blue-200 text-sm font-medium">10万フォロワー</p>
+                  </div>
+                </div>
+                <ul class="space-y-2 text-blue-100 text-sm font-medium">
+                  <li>・ PR商材に興味があるフォロワー数: 7,800人</li>
+                  <li>・ エンゲージメント率: 3.2%</li>
+                  <li>・ コスト効率: 低</li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="inline-flex items-center space-x-4 bg-white/20 backdrop-blur-sm px-8 py-4 rounded-full border-2 border-[#FFD85F]">
+                <div class="w-8 h-8 bg-[#FFD85F] rounded-full flex items-center justify-center">
+                  <span class="text-black font-bold">VS</span>
+                </div>
+                <p class="text-lg font-bold">フォロワー数が半分でも、質の高いフォロワーを持つインフルエンサーAが<br/><span class="bg-[#FFD85F] text-black px-3 py-1 rounded-full">約1.6倍</span>のターゲットリーチを実現</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Targeting -->
-  <section class="py-20 bg-gray-800/50 px-6" id="targeting">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl font-black text-center mb-4">キーアカウント調査</h2>
-      <p class="text-center text-gray-400 mb-4">潜在層への効率的なリーチを実現する独自のターゲティング手法</p>
-      <p class="text-center text-gray-500 text-sm mb-12 max-w-2xl mx-auto">
-        ターゲットとなる一般ユーザーが共通してフォローしているインフルエンサーを発掘する独自の手法。これにより、潜在層へのリーチとファン化を強力に促進します。
-      </p>
-      <div class="grid md:grid-cols-3 gap-8 mb-12">
-        <div class="text-center bg-gray-800 rounded-2xl p-8 border border-gray-700">
-          <div class="text-3xl mb-4">🎯</div>
-          <h3 class="font-bold mb-2">① ターゲット分析</h3>
-          <p class="text-gray-400 text-sm">理想的な顧客のSNS行動を詳細分析</p>
-        </div>
-        <div class="text-center bg-gray-800 rounded-2xl p-8 border border-gray-700">
-          <div class="text-3xl mb-4">🔗</div>
-          <h3 class="font-bold mb-2">② 共通フォロー発見</h3>
-          <p class="text-gray-400 text-sm">ターゲットが共通してフォローするアカウントを特定</p>
-        </div>
-        <div class="text-center bg-gray-800 rounded-2xl p-8 border border-gray-700">
-          <div class="text-3xl mb-4">🚀</div>
-          <h3 class="font-bold mb-2">③ 最適化実行</h3>
-          <p class="text-gray-400 text-sm">発見したキーアカウントとの連携で効果を最大化</p>
-        </div>
+  <!-- キーアカウント調査 Section -->
+  <section id="targeting" class="py-20 bg-gradient-to-br from-gray-900 to-[#2D6CDF] text-white">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <div class="inline-block bg-[#FFD85F] text-black px-6 py-2 rounded-full font-bold mb-6 shadow-lg">#画期的手法</div>
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">キーアカウント調査</h2>
+        <p class="text-xl text-blue-200 font-medium">潜在層への効率的なリーチを実現する独自のターゲティング手法</p>
       </div>
-      <div class="grid md:grid-cols-3 gap-6">
-        <div class="bg-gradient-to-br from-blue-900 to-blue-800 rounded-2xl p-8 text-center">
-          <div class="text-5xl font-black text-blue-300 mb-2">27<span class="text-2xl">倍</span></div>
-          <p class="text-blue-200 text-sm">リーチ数向上</p>
-        </div>
-        <div class="bg-gradient-to-br from-purple-900 to-purple-800 rounded-2xl p-8 text-center">
-          <div class="text-5xl font-black text-purple-300 mb-2">6<span class="text-2xl">倍</span></div>
-          <p class="text-purple-200 text-sm">いいね数増加</p>
-        </div>
-        <div class="bg-gradient-to-br from-pink-900 to-pink-800 rounded-2xl p-8 text-center">
-          <div class="text-5xl font-black text-pink-300 mb-2">90<span class="text-2xl">倍</span></div>
-          <p class="text-pink-200 text-sm">保存数向上</p>
+      <div class="max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h3 class="text-3xl font-bold mb-8">調査の仕組み</h3>
+            <p class="text-xl text-gray-300 mb-10 font-medium">ターゲットとなる一般ユーザーが共通してフォローしているインフルエンサーを発掘する独自の手法。 これにより、潜在層へのリーチとファン化を強力に促進します。</p>
+            <div class="space-y-8">
+              <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border-l-4 border-[#2D6CDF]">
+                <div class="flex items-start space-x-4">
+                  <div class="w-10 h-10 bg-[#2D6CDF] rounded-full flex items-center justify-center flex-shrink-0">
+                    <span class="text-sm font-bold">1</span>
+                  </div>
+                  <div>
+                    <h4 class="font-bold mb-2 text-lg">ターゲット分析</h4>
+                    <p class="text-gray-300 font-medium">理想的な顧客のSNS行動を詳細分析</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border-l-4 border-[#FF7E5F]">
+                <div class="flex items-start space-x-4">
+                  <div class="w-10 h-10 bg-[#FF7E5F] rounded-full flex items-center justify-center flex-shrink-0">
+                    <span class="text-sm font-bold">2</span>
+                  </div>
+                  <div>
+                    <h4 class="font-bold mb-2 text-lg">共通フォロー発見</h4>
+                    <p class="text-gray-300 font-medium">ターゲットが共通してフォローするアカウントを特定</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border-l-4 border-[#FFD85F]">
+                <div class="flex items-start space-x-4">
+                  <div class="w-10 h-10 bg-[#FFD85F] rounded-full flex items-center justify-center flex-shrink-0">
+                    <span class="text-black text-sm font-bold">3</span>
+                  </div>
+                  <div>
+                    <h4 class="font-bold mb-2 text-lg">最適化実行</h4>
+                    <p class="text-gray-300 font-medium">発見したキーアカウントとの連携で効果を最大化</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white/15 backdrop-blur-sm p-8 rounded-3xl border-2 border-white/20">
+            <div class="text-center mb-8">
+              <div class="bg-[#FFD85F] text-black px-4 py-2 rounded-full inline-block font-bold mb-4">実証された効果</div>
+              <h4 class="text-2xl font-bold">劇的な成果向上</h4>
+            </div>
+            <div class="grid grid-cols-3 gap-6 text-center mb-8">
+              <div class="bg-white/20 p-4 rounded-2xl">
+                <div class="bg-[#FFD85F] text-black px-3 py-1 rounded-full inline-block mb-2 shadow-md">
+                  <div class="text-2xl font-bold">27倍</div>
+                </div>
+                <p class="text-sm text-gray-300 font-medium">リーチ数向上</p>
+              </div>
+              <div class="bg-white/20 p-4 rounded-2xl">
+                <div class="bg-[#FFD85F] text-black px-3 py-1 rounded-full inline-block mb-2 shadow-md">
+                  <div class="text-2xl font-bold">6倍</div>
+                </div>
+                <p class="text-sm text-gray-300 font-medium">いいね数増加</p>
+              </div>
+              <div class="bg-white/20 p-4 rounded-2xl">
+                <div class="bg-[#FFD85F] text-black px-3 py-1 rounded-full inline-block mb-2 shadow-md">
+                  <div class="text-2xl font-bold">90倍</div>
+                </div>
+                <p class="text-sm text-gray-300 font-medium">保存数向上</p>
+              </div>
+            </div>
+            <div class="bg-gradient-to-r from-[#2D6CDF]/30 to-[#FF7E5F]/30 p-4 rounded-2xl border-l-4 border-[#FFD85F]">
+              <p class="text-center text-sm font-medium">従来手法と比較して圧倒的な成果を実現</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Proxy -->
-  <section class="py-20 px-6" id="proxy">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl font-black text-center mb-4">面倒な業務はすべてお任せ</h2>
-      <p class="text-center text-gray-400 mb-12">インフルエンサーマーケティングの全工程を完全代行。お客様は結果だけを確認いただけます。</p>
-      <div class="grid md:grid-cols-4 gap-4 mb-12">
-        {['インフルエンサー選定', '初回アプローチ', '交渉・条件調整', '契約書作成', 'コンテンツ制作支援', 'スケジュール管理', '効果測定・分析', '改善提案'].map((step, i) => `
-        <div class="bg-gray-800 rounded-xl p-5 border border-gray-700 text-center">
-          <div class="text-blue-400 font-black text-lg mb-2">0${i+1}</div>
-          <p class="text-sm">${step}</p>
-        </div>`).join('')}
+  <!-- 業務完全代行 Section -->
+  <section id="proxy" class="py-20 bg-[#F7F9FC]">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <div class="inline-block bg-[#2D6CDF] text-white px-6 py-2 rounded-full font-bold mb-6 shadow-lg">#業務完全代行</div>
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">面倒な業務はすべてお任せ</h2>
+        <p class="text-xl text-gray-600 font-medium">インフルエンサーマーケティングの全工程を完全代行。<br/>お客様は結果だけを確認いただけます。</p>
       </div>
-      <div class="grid md:grid-cols-3 gap-8 mb-12">
-        <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700">
-          <div class="text-4xl font-black text-blue-400 mb-4">90%</div>
-          <h3 class="font-bold mb-3">時間コストを大幅削減</h3>
-          <p class="text-gray-400 text-sm">担当者の工数を90%削減。月100時間以上の業務負担を軽減します。</p>
+      <div class="max-w-7xl mx-auto">
+        <div class="bg-white p-8 rounded-3xl shadow-lg border-2 border-gray-100 mb-12">
+          <div class="text-center mb-8">
+            <div class="inline-block bg-[#FFD85F] text-black px-4 py-2 rounded-full font-bold mb-4">#完全代行プロセス</div>
+            <h3 class="text-2xl font-bold text-gray-900">8つのステップを全て代行</h3>
+          </div>
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-gradient-to-br from-[#2D6CDF]/10 to-[#2D6CDF]/5 p-6 rounded-2xl border-2 border-[#2D6CDF]/20 hover:border-[#2D6CDF] transition-all duration-300">
+              <div class="w-12 h-12 bg-[#2D6CDF] rounded-full flex items-center justify-center mb-4">
+                <i class="ri-search-line text-white text-xl"></i>
+              </div>
+              <h4 class="font-bold text-gray-900 mb-2">1. インフルエンサー選定</h4>
+              <p class="text-sm text-gray-600 font-medium">AIによる最適な候補者の抽出</p>
+            </div>
+            <div class="bg-gradient-to-br from-[#FF7E5F]/10 to-[#FF7E5F]/5 p-6 rounded-2xl border-2 border-[#FF7E5F]/20 hover:border-[#FF7E5F] transition-all duration-300">
+              <div class="w-12 h-12 bg-[#FF7E5F] rounded-full flex items-center justify-center mb-4">
+                <i class="ri-mail-line text-white text-xl"></i>
+              </div>
+              <h4 class="font-bold text-gray-900 mb-2">2. 初回アプローチ</h4>
+              <p class="text-sm text-gray-600 font-medium">パーソナライズされた提案書の送付</p>
+            </div>
+            <div class="bg-gradient-to-br from-[#FFD85F]/20 to-[#FFD85F]/10 p-6 rounded-2xl border-2 border-[#FFD85F]/30 hover:border-[#FFD85F] transition-all duration-300">
+              <div class="w-12 h-12 bg-[#FFD85F] rounded-full flex items-center justify-center mb-4">
+                <i class="ri-chat-3-line text-black text-xl"></i>
+              </div>
+              <h4 class="font-bold text-gray-900 mb-2">3. 交渉・条件調整</h4>
+              <p class="text-sm text-gray-600 font-medium">価格や投稿内容の詳細交渉</p>
+            </div>
+            <div class="bg-gradient-to-br from-[#2D6CDF]/10 to-[#2D6CDF]/5 p-6 rounded-2xl border-2 border-[#2D6CDF]/20 hover:border-[#2D6CDF] transition-all duration-300">
+              <div class="w-12 h-12 bg-[#2D6CDF] rounded-full flex items-center justify-center mb-4">
+                <i class="ri-file-text-line text-white text-xl"></i>
+              </div>
+              <h4 class="font-bold text-gray-900 mb-2">4. 契約書作成</h4>
+              <p class="text-sm text-gray-600 font-medium">法的に安全な契約書の準備</p>
+            </div>
+            <div class="bg-gradient-to-br from-[#FF7E5F]/10 to-[#FF7E5F]/5 p-6 rounded-2xl border-2 border-[#FF7E5F]/20 hover:border-[#FF7E5F] transition-all duration-300">
+              <div class="w-12 h-12 bg-[#FF7E5F] rounded-full flex items-center justify-center mb-4">
+                <i class="ri-image-line text-white text-xl"></i>
+              </div>
+              <h4 class="font-bold text-gray-900 mb-2">5. コンテンツ制作支援</h4>
+              <p class="text-sm text-gray-600 font-medium">投稿内容の企画・監修</p>
+            </div>
+            <div class="bg-gradient-to-br from-[#FFD85F]/20 to-[#FFD85F]/10 p-6 rounded-2xl border-2 border-[#FFD85F]/30 hover:border-[#FFD85F] transition-all duration-300">
+              <div class="w-12 h-12 bg-[#FFD85F] rounded-full flex items-center justify-center mb-4">
+                <i class="ri-calendar-check-line text-black text-xl"></i>
+              </div>
+              <h4 class="font-bold text-gray-900 mb-2">6. スケジュール管理</h4>
+              <p class="text-sm text-gray-600 font-medium">投稿タイミングの最適化</p>
+            </div>
+            <div class="bg-gradient-to-br from-[#2D6CDF]/10 to-[#2D6CDF]/5 p-6 rounded-2xl border-2 border-[#2D6CDF]/20 hover:border-[#2D6CDF] transition-all duration-300">
+              <div class="w-12 h-12 bg-[#2D6CDF] rounded-full flex items-center justify-center mb-4">
+                <i class="ri-line-chart-line text-white text-xl"></i>
+              </div>
+              <h4 class="font-bold text-gray-900 mb-2">7. 効果測定・分析</h4>
+              <p class="text-sm text-gray-600 font-medium">詳細な成果レポートの作成</p>
+            </div>
+            <div class="bg-gradient-to-br from-[#FF7E5F]/10 to-[#FF7E5F]/5 p-6 rounded-2xl border-2 border-[#FF7E5F]/20 hover:border-[#FF7E5F] transition-all duration-300">
+              <div class="w-12 h-12 bg-[#FF7E5F] rounded-full flex items-center justify-center mb-4">
+                <i class="ri-presentation-line text-white text-xl"></i>
+              </div>
+              <h4 class="font-bold text-gray-900 mb-2">8. 改善提案</h4>
+              <p class="text-sm text-gray-600 font-medium">次回キャンペーンへの最適化案</p>
+            </div>
+          </div>
         </div>
-        <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700">
-          <div class="text-4xl mb-4">🛡️</div>
-          <h3 class="font-bold mb-3">リスク管理を徹底</h3>
-          <p class="text-gray-400 text-sm">炎上リスクの事前回避、法的コンプライアンスの確保、契約トラブルの防止まで専門チームが対応。</p>
+        <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+          <div>
+            <div class="space-y-8">
+              <div class="bg-white p-6 rounded-3xl shadow-lg border-2 border-gray-100 hover:border-[#2D6CDF] transition-all duration-300">
+                <div class="flex items-start space-x-4">
+                  <div class="w-16 h-16 bg-gradient-to-r from-[#2D6CDF] to-[#2D6CDF]/80 rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <i class="ri-time-line text-white text-2xl"></i>
+                  </div>
+                  <div>
+                    <div class="flex items-center space-x-2 mb-2">
+                      <h3 class="text-xl font-bold text-gray-900">時間コストを大幅削減</h3>
+                      <div class="bg-[#FFD85F] text-black px-2 py-1 rounded-full text-xs font-bold">#効率化</div>
+                    </div>
+                    <p class="text-gray-600 font-medium">担当者の工数を90%削減。本業に集中していただけます。月100時間以上の業務負担を軽減します。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white p-6 rounded-3xl shadow-lg border-2 border-gray-100 hover:border-[#FF7E5F] transition-all duration-300">
+                <div class="flex items-start space-x-4">
+                  <div class="w-16 h-16 bg-gradient-to-r from-[#FF7E5F] to-[#FF7E5F]/80 rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <i class="ri-shield-check-line text-white text-2xl"></i>
+                  </div>
+                  <div>
+                    <div class="flex items-center space-x-2 mb-2">
+                      <h3 class="text-xl font-bold text-gray-900">リスク管理を徹底</h3>
+                      <div class="bg-[#2D6CDF] text-white px-2 py-1 rounded-full text-xs font-bold">#安心安全</div>
+                    </div>
+                    <p class="text-gray-600 font-medium">炎上リスクの事前回避、法的コンプライアンスの確保、契約トラブルの防止まで専門チームが対応します。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white p-6 rounded-3xl shadow-lg border-2 border-gray-100 hover:border-[#FFD85F] transition-all duration-300">
+                <div class="flex items-start space-x-4">
+                  <div class="w-16 h-16 bg-gradient-to-r from-[#FF7E5F] to-[#FFD85F]/80 rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <i class="ri-trophy-line text-black text-2xl"></i>
+                  </div>
+                  <div>
+                    <div class="flex items-center space-x-2 mb-2">
+                      <h3 class="text-xl font-bold text-gray-900">プロフェッショナルな成果</h3>
+                      <div class="bg-[#FF7E5F] text-white px-2 py-1 rounded-full text-xs font-bold">#高品質</div>
+                    </div>
+                    <p class="text-gray-600 font-medium">経験豊富な専門チームによる戦略的アプローチで、自社で行うよりも高い成果を実現します。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gradient-to-br from-[#2D6CDF] to-[#FF7E5F] p-8 rounded-3xl text-white shadow-2xl">
+            <div class="text-center mb-8">
+              <div class="bg-[#FFD85F] text-black px-4 py-2 rounded-full inline-block font-bold mb-4">時短効果を実感</div>
+              <h4 class="text-2xl font-bold">効率性の向上</h4>
+            </div>
+            <div class="grid grid-cols-2 gap-6 text-center mb-8">
+              <div class="bg-white/20 p-4 rounded-2xl">
+                <div class="bg-[#FFD85F] text-black px-3 py-1 rounded-full inline-block mb-2 shadow-md">
+                  <div class="text-2xl font-bold">90%</div>
+                </div>
+                <p class="text-sm text-gray-300 font-medium">工数削減</p>
+              </div>
+              <div class="bg-white/20 p-4 rounded-2xl">
+                <div class="bg-[#FFD85F] text-black px-3 py-1 rounded-full inline-block mb-2 shadow-md">
+                  <div class="text-2xl font-bold">100時間</div>
+                </div>
+                <p class="text-sm text-gray-300 font-medium">月間短縮</p>
+              </div>
+            </div>
+            <div class="bg-gradient-to-r from-[#2D6CDF]/30 to-[#FF7E5F]/30 p-4 rounded-2xl border-l-4 border-[#FFD85F]">
+              <p class="text-center text-sm font-medium">従来手法と比較して圧倒的な成果を実現</p>
+            </div>
+          </div>
         </div>
-        <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700">
-          <div class="text-4xl mb-4">⭐</div>
-          <h3 class="font-bold mb-3">プロフェッショナルな成果</h3>
-          <p class="text-gray-400 text-sm">経験豊富な専門チームによる戦略的アプローチで、自社で行うよりも高い成果を実現します。</p>
-        </div>
-      </div>
-      <div class="grid md:grid-cols-2 gap-8">
-        <img src="images/img5.png" alt="業務代行イメージ" class="rounded-2xl shadow-xl w-full">
-        <img src="images/img6.png" alt="サービスイメージ" class="rounded-2xl shadow-xl w-full">
       </div>
     </div>
   </section>
 
-  <!-- CTA -->
-  <section class="py-20 bg-gradient-to-br from-blue-900 to-blue-800 px-6">
-    <div class="max-w-2xl mx-auto text-center">
-      <h2 class="text-3xl font-black mb-6">最適なインフルエンサー選定からアプローチまで、あなたのビジネスをフルサポート</h2>
-      <p class="text-blue-200 mb-8">まずは無料相談でご相談ください。</p>
-      <a href="https://forms.google.com" target="_blank" class="inline-block bg-white text-blue-900 px-10 py-4 rounded-full font-black text-lg hover:bg-blue-50 transition">
-        お申し込みフォームへ
-      </a>
+  <!-- お問い合わせ Section -->
+  <section class="py-20 bg-gradient-to-br from-[#3f51b5] via-[#8a4f7d] to-[#e57373]">
+    <div class="container mx-auto px-6">
+      <div class="text-center text-white">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">お問い合わせ</h2>
+        <p class="text-xl mb-10 font-medium">最適なインフルエンサー選定からアプローチまで、あなたのビジネスをフルサポート。 まずは無料相談でご相談ください。</p>
+        <a href="https://first-temple.co.jp/contact" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-3 bg-white text-[#3f51b5] px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-50 transition-all duration-300 whitespace-nowrap cursor-pointer shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+          <i class="ri-file-text-line text-xl"></i>
+          <span>お申し込みフォームへ</span>
+        </a>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-950 text-gray-500 py-12 px-6">
-    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-      <div class="flex gap-6 text-sm">
-        <a href="#" class="hover:text-white transition">会社概要</a>
-        <a href="#" class="hover:text-white transition">プライバシーポリシー</a>
+  <footer class="bg-gradient-to-br from-gray-900 to-[#2D6CDF] text-white py-16">
+    <div class="container mx-auto px-6">
+      <div class="text-center">
+        <div class="flex items-center justify-center space-x-3 mb-8">
+          <div class="w-10 h-10 bg-gradient-to-r from-[#FFD85F] to-[#FF7E5F] rounded-2xl flex items-center justify-center shadow-lg">
+            <i class="ri-user-star-line text-black text-xl"></i>
+          </div>
+          <span class="text-2xl font-bold">Creatorスカウト</span>
+        </div>
+        <p class="text-gray-300 mb-8 font-medium">AIで成果を最大化するインフルエンサーマーケ支援を</p>
+        <div class="flex justify-center space-x-8 mb-8">
+          <a href="https://first-temple.co.jp/about" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors cursor-pointer font-medium">会社概要</a>
+          <a href="https://first-temple.co.jp/privacy" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors cursor-pointer font-medium">プライバシーポリシー</a>
+        </div>
       </div>
-      <p class="text-sm">© 2025 Creatorスカウト. All rights reserved.</p>
+      <div class="border-t border-white/20 mt-16 pt-8 text-center">
+        <p class="text-gray-300 font-medium">&copy; 2025 Creatorスカウト. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
+</div>
 </body>
 </html>
