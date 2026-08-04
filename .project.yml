@@ -1,0 +1,11 @@
+name: スカウトLP
+client: 自社
+summary: Reddyサイトから移管・再構築された、スカウト用のランディングページです。GTMが導入済み。
+status: 完了
+next_actions: []
+tags:
+  - LP
+  - HTML
+  - GTM
+updated: 2026-08-04
+generated_by: gemini-2.5-flash (要確認)
